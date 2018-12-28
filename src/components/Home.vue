@@ -1,18 +1,21 @@
 <template>
   <div class="home">
     <Background ></Background>
+    <!-- <Clock ></Clock> -->
     <Content ></Content>
   </div>
 </template>
 
 <script>
 import Background from './Background.vue';
+import Clock from './Clock.vue';
 import Content from './Content.vue';
 export default {
   name: 'home',
   components: {
     Background: Background,
     Content: Content,
+    Clock
   },
   data () {
     return {
