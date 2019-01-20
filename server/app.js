@@ -25,5 +25,5 @@ app.all('*',function (req, res, next) {
 });
 
 // 监听80端口
-app.listen(8088);
-console.log('server is running 8088');
+app.listen(8081);
+console.log('server is running 8081');
