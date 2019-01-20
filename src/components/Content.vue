@@ -1,7 +1,12 @@
 <template>
   <div class="content">
+  <a class="home-docs" target="_blank" href="https://gd-ldj.github.io/docs/">
     <img class="ava" src="https://avatars3.githubusercontent.com/u/34954129"/>
+  </a>
     <div class="link-img">
+      <a class="link-csdn" target="_blank" href="https://blog.csdn.net/qq_41969216">
+        <img class="csdn-ava" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3600257488,3176883299&fm=15&gp=0.jpg" />
+      </a>
       <a class="link-github" target="_blank" href="https://github.com/gd-ldj">
         <img class="github-ava" src="https://github.githubassets.com/pinned-octocat.svg"/>
       </a>
@@ -60,6 +65,13 @@ export default {
     background: #ffffff;
   }
   .jj-ava {
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background: #ffffff;
+  }
+   .csdn-ava {
     height: 50px;
     width: 50px;
     margin: 0 10px;
